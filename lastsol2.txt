@@ -1,0 +1,18 @@
+let all = [];
+for(let i = 0; i < conditions.length; i++){
+	//console.log(conditions[i])
+  _.forEach(conditions[i], (o) => {
+  	_.forEach(o, (c) => {
+      console.log(c)
+      //let option = Object.keys(conditions[i]);
+      let option = 'facility';
+      let x = _.filter(notes, { facility  : 'London' });
+
+      all.push(x);
+    
+    });
+    
+    
+  });
+}
+console.log(all);
